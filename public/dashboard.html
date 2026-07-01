@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container dashboardContainer">
+
+    <h1>🔐 Role-Based Authentication System</h1>
+
+    <hr>
+
+    <h2 id="welcome">
+
+        Welcome
+
+    </h2>
+
+    <h3 id="role">
+
+        Loading Role...
+
+    </h3>
+
+    <br>
+
+    <!-- USER PANEL -->
+
+    <div class="card">
+
+        <h3>👤 User Dashboard</h3>
+
+        <p>
+
+            You have successfully logged into the application.
+
+        </p>
+
+        <p>
+
+            Every authenticated user can access this dashboard.
+
+        </p>
+
+    </div>
+
+    <br>
+
+    <!-- ADMIN PANEL -->
+
+    <div id="adminPanel" class="card" style="display:none;">
+
+        <h3>🛡 Administrator Dashboard</h3>
+
+        <hr>
+
+        <div class="statsGrid">
+
+            <div class="statCard">
+
+                <h2 id="totalUsers">
+
+                    0
+
+                </h2>
+
+                <p>Total Users</p>
+
+            </div>
+
+            <div class="statCard">
+
+                <h2 id="totalAdmins">
+
+                    0
+
+                </h2>
+
+                <p>Admins</p>
+
+            </div>
+
+            <div class="statCard">
+
+                <h2 id="totalNormalUsers">
+
+                    0
+
+                </h2>
+
+                <p>Users</p>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <button
+            onclick="window.location='users.html'">
+
+            👥 Manage Users
+
+        </button>
+
+    </div>
+
+    <br>
+
+    <button onclick="logout()">
+
+        Logout
+
+    </button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

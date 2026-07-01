@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>User Management</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container usersContainer">
+
+    <h1>👥 User Management</h1>
+
+    <p class="subtitle">
+
+        Manage registered users and assign roles.
+
+    </p>
+
+    <div class="statsBox">
+
+        <strong>Total Users :</strong>
+
+        <span id="totalUsers">0</span>
+
+    </div>
+
+    <br>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Username</th>
+
+                <th>Email</th>
+
+                <th>Role</th>
+
+                <th>Actions</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="usersBody">
+
+        </tbody>
+
+    </table>
+
+    <br>
+
+    <div class="buttonGroup">
+
+        <button onclick="window.location='dashboard.html'">
+
+            ⬅ Dashboard
+
+        </button>
+
+        <button onclick="logout()">
+
+            Logout
+
+        </button>
+
+    </div>
+
+</div>
+
+<script>
+
+function logout(){
+
+    localStorage.clear();
+
+    window.location="login.html";
+
+}
+
+</script>
+
+<script src="users.js"></script>
+
+</body>
+
+</html>
