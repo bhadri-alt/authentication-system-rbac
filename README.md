@@ -255,12 +255,10 @@ http://localhost:5000
 
 # 📸 Screenshots
 
-Add screenshots here before submitting.
 
 ## Registration
 
-```
-screenshots/register.png
+![alt text](image.png)```
 ```
 
 ---
@@ -268,7 +266,7 @@ screenshots/register.png
 ## Login
 
 ```
-screenshots/login.png
+![alt text](image-1.png)
 ```
 
 ---
@@ -276,7 +274,7 @@ screenshots/login.png
 ## User Dashboard
 
 ```
-screenshots/user-dashboard.png
+![alt text](image-2.png)
 ```
 
 ---
@@ -284,7 +282,7 @@ screenshots/user-dashboard.png
 ## Admin Dashboard
 
 ```
-screenshots/admin-dashboard.png
+![alt text](image-3.png)
 ```
 
 ---
@@ -292,7 +290,7 @@ screenshots/admin-dashboard.png
 ## User Management
 
 ```
-screenshots/user-management.png
+![alt text](image-4.png)
 ```
 
 ---
@@ -300,20 +298,12 @@ screenshots/user-management.png
 ## MongoDB Atlas
 
 ```
-screenshots/mongodb.png
+![alt text](image-5.png)
 ```
 
 ---
 
-## Postman APIs
 
-```
-screenshots/postman-register.png
-
-screenshots/postman-login.png
-
-screenshots/postman-users.png
-```
 
 ---
 
