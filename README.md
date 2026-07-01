@@ -251,7 +251,7 @@ http://localhost:5000
 }
 ```
 
----
+
 
 # 📸 Screenshots
 
@@ -301,13 +301,7 @@ http://localhost:5000
 ![alt text](image-5.png)
 ```
 
----
-
-
-
----
-
-# 📋 Internship Deliverables
+📋 Internship Deliverables
 
 - ✅ Backend Source Code
 - ✅ Frontend Source Code
@@ -321,9 +315,7 @@ http://localhost:5000
 - ✅ Responsive Interface
 - ✅ GitHub Documentation
 
----
-
-# 🚀 Future Enhancements
+ 🚀 Future Enhancements
 
 - Forgot Password
 - Email Verification
@@ -335,11 +327,11 @@ http://localhost:5000
 - Activity Logs
 - Two-Factor Authentication (2FA)
 
----
 
-# 👨‍💻 Author
 
-**Nallamothu Bhadri**
+👨‍💻 Author
+
+Nallamothu Bhadri
 
 Computer Science Engineering Student
 
